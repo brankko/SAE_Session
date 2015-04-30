@@ -41,3 +41,26 @@
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
 	background-color: #2A63A9;
 }
+
+#podcasts {
+	margin-top: 30px;
+}
+
+#countdown {
+	width: 100%;
+	background-color: rgb(2,62,136);
+	overflow: hidden;
+	opacity: 0;
+}
+
+#countdown .number {
+	display: block;
+	color: #fff;
+	font-size: 52px;
+}
+
+#countdown .label {
+	font-size: 14px;
+	position: relative;
+  	top: -10px;
+}
