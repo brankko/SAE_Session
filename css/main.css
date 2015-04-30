@@ -1,3 +1,39 @@
 #banner-img {
 	min-width: 100%;
 }
+
+.navbar-inverse {
+	background-image: none !important;
+	background-color: rgb(2,62,136);
+	height: 76px;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+	padding: 8px 12px;
+}
+
+.navbar-inverse .navbar-toggle {
+	margin-top: 20px;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a, .nav>li {
+	background-image: none !important;
+	background-color: rgba(2,62,136, 0.9);
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	margin-top: 13px;
+}
+
+.navbar-nav {
+	margin-top: 0 !important;
+}
