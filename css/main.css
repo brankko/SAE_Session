@@ -27,7 +27,7 @@
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: #fff;
+	/*color: #fff;*/
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -36,4 +36,8 @@
 
 .navbar-nav {
 	margin-top: 0 !important;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #2A63A9;
 }
